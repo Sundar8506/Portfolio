@@ -10,7 +10,7 @@ export default function About(){
         </div>
         <div className="md:w-1/2 flex justify-center ">
            <div className="flex flex-col justify-center text-white">
-             <h1 className="text-4xl border-b-4 border-[blueviolet] mb-5 w-[170px] font-bold ">About me modified by seeenu </h1>
+             <h1 className="text-4xl border-b-4 border-[blueviolet] mb-5 w-[170px] font-bold ">About me </h1>
            <p className="pb-6"> {config.line1}</p>
            <p className="pb-6" >{config.line2}</p>
            </div>
