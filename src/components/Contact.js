@@ -1,4 +1,4 @@
-import ResumeImg from "../assets/resume.jpg"
+
 export default function Contact(){
   const config = {
     email :'sundhareshan@140gmail.com',

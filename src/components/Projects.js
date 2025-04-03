@@ -44,7 +44,7 @@ export default function Projects(){
            {config.projects.map((project)=>(  
             
             <div className='relative'>
-            <img className='h-[200px] w-[900px]'src={project.image}/>
+            <img className='h-[200px] w-[900px]'src={project.image}  alt="Description of the image" />
             <h1 className='font-hero-font text-center py-2'>{project.Title}</h1>
             <div className='project-desc '>
             <p className='text-center px-1 py-5 '>{project.description} </p>
