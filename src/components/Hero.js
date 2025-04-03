@@ -22,6 +22,6 @@ export default function Hero(){
         </div>
       </div>
      
-      <img className='md: w-1/3' src={Heroimg}  alt="Description of the image" ></img>
+      <img className='md: w-1/3' src={Heroimg} ></img>
     </section>
 }
