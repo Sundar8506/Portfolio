@@ -36,7 +36,7 @@ export default function Projects(){
         <div className="w-full">
         <div className="flex flex-col px-10 py-5">
         <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold ">Projects</h1>
-        <p className='font-hero-font text-black stroke-white'>These are my Projects</p>
+        <p className='font-hero-font text-white stroke-white'>These are my <span className='text-black'>Projects</span> </p>
         </div>
         </div>
         <div className="w-full">

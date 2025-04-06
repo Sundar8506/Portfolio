@@ -9,10 +9,10 @@ export default function About(){
             <img src={AboutImg}/>
         </div>
         <div className="md:w-1/2 flex justify-center ">
-           <div className="flex flex-col justify-center text-white">
-             <h1 className="text-4xl border-b-4 border-[blueviolet] mb-5 w-[170px] font-bold ">About me </h1>
-           <p className="pb-6"> {config.line1}</p>
-           <p className="pb-6" >{config.line2}</p>
+           <div className="flex flex-col justify-center ">
+             <h1 className="text-4xl border-b-4 border-[blueviolet] mb-5 w-[170px] font-bold text-white">About me </h1>
+           <p className="pb-6 font-bold text-black"> {config.line1}</p>
+           <p className="pb-6 font-bold text-white " >{config.line2}</p>
            </div>
         </div>
     </section>
