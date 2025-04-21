@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       borderColor :{
-        'primary':'blueviolet' ,
-        'secondary':'cornflowerblue'
+        'primary':'black' ,
+        'secondary':'white'
       }
     },
     fontFamily:{

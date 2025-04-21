@@ -10,7 +10,7 @@ export default function Hero(){
       whatsapp:'https://wa.me/+918870136394'
     }
   }
-    return <section className=' flex flex-col md:flex-row px-1 py-12 bg-primary justify-center' >
+    return <section className=' flex flex-col md:flex-row px-1 py-12 bg-black justify-center' >
       <div className='w-1/2 flex flex-col'>
       <h1 className=' text-black md:text-white text-4xl font-hero-font '>Hi ,<br/><br/>I'm <span className='text-black py-3'>K </span>Sundhareshan
       <p className='text-2xl py-3'>{config.subtitle}</p>
