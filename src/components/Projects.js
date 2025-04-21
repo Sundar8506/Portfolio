@@ -49,7 +49,7 @@ export default function Projects(){
             <div className='project-desc '>
             <p className='text-center px-1 py-5 '>{project.description} </p>
             <div className='flex justify-center'>
-            <a className='btn ' target='_blank' href={project.link}> View My Project</a>
+            <a className='btn ' target='_blank' href={project.link}> These are my Project</a>
             </div>
             </div> 
             
