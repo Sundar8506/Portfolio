@@ -6,16 +6,15 @@ header ul li{
     @apply px-2;
 }
 .bg-primary{
-    background: blueviolet;
+    background: black;
 }
 .bg-secondary{  
-    background-color: cornflowerblue
+    background: white;
 }
-.mobile-nav{
-    @apply font-bold fixed top-8 right-0 w-1/2 h-1/4; 
-
-
-}
+.mobile-nav {
+    @apply bg-black p-5 absolute top-full right-0 w-1/2 rounded-lg space-y-3 shadow-lg z-50;
+  }
+  
 .mobile-nav   li {
     @apply w-full h-full text-right px-5  ;
 }

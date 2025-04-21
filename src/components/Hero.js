@@ -1,27 +1,72 @@
-import Heroimg from '../assets/hero.png'
-import { AiOutlineLinkedin,AiOutlineGithub ,AiOutlineWhatsApp } from "react-icons/ai";
+import Heroimg from '../assets/hero.png';
+import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineWhatsApp } from "react-icons/ai";
+import { Typewriter } from 'react-simple-typewriter';
 
-export default function Hero(){
-  const config ={
-    subtitle : "I'm a Front-end Developer and designer",
-    social:{
-      linkedin:'https://www.linkedin.com/in/sundar8506',
-      github:'https://github.com/Sundar8506',
-      whatsapp:'https://wa.me/+918870136394'
-    }
-  }
-    return <section className=' flex flex-col md:flex-row px-1 py-12 bg-black justify-center' >
-      <div className='w-1/2 flex flex-col'>
-      <h1 className=' text-black md:text-white text-4xl font-hero-font '>Hi ,<br/><br/>I'm <span className='text-black py-3'>K </span>Sundhareshan
-      <p className='text-2xl py-3'>{config.subtitle}</p>
+export default function Hero() {
+  const config = {
+    social: {
+      linkedin: 'https://www.linkedin.com/in/sundar8506',
+      github: 'https://github.com/Sundar8506',
+      whatsapp: 'https://wa.me/+918870136394',
+    },
+  };
+
+  return (<section className='relative flex flex-col md:flex-row px-4 py-12 bg-black items-center justify-between overflow-hidden'>
+    {/* Text Content */}
+    <div className='w-full md:w-1/2 flex flex-col z-30 text-center md:text-left'>
+      <h1 className='text-white text-4xl font-hero-font relative'>
+        Hi,<br />
+        <span className='py-3 inline-block'>I'm K Sundhareshan.</span>
       </h1>
-        <div className='flex py-10 px-2 '>
-            <a href={config.social.linkedin} className='pr-3 hover:text-white'><AiOutlineLinkedin size={40}  /></a>
-            <a href={config.social.github} className='pr-3  hover:text-white' ><AiOutlineGithub size={40}   /></a>
-            <a href={config.social.whatsapp}className='pr-3  hover:text-white'><AiOutlineWhatsApp size={40}  /></a>
-        </div>
+  
+      <h2 className="text-white text-xl font-hero-font py-3">
+        <Typewriter
+          words={[
+            'Frontend Developer.',
+            'React.js Enthusiast.',
+            'Python Programmer.',
+            'RPA & Automation.',
+            'Graphic Designer.',
+            'Digital Marketer.',
+          ]}
+          loop={0}
+          cursor
+          cursorStyle="|"
+          typeSpeed={50}
+          deleteSpeed={20}
+          delaySpeed={1000}
+        />
+      </h2>
+  
+      <div className='flex justify-center md:justify-start py-10 px-2'>
+        <a href={config.social.linkedin} target="_blank" rel="noopener noreferrer" className='text-white pr-3  transition-transform duration-500 ease-in-out
+ hover:scale-150
+'>
+          <AiOutlineLinkedin size={60} />
+        </a>
+        <a href={config.social.github} target="_blank" rel="noopener noreferrer" className=' text-white pr-3 transition-transform duration-500 ease-in-out
+ hover:scale-150
+'>
+          <AiOutlineGithub size={60} />
+        </a>
+        <a href={config.social.whatsapp} target="_blank" rel="noopener noreferrer" className='text-white pr-3 transition-transform duration-500 ease-in-out
+ hover:scale-150
+0'>
+          <AiOutlineWhatsApp size={60} />
+        </a>
       </div>
-     
-      <img className='md: w-1/3' src={Heroimg} ></img>
-    </section>
+    </div>
+  
+    {/* Hero Image Overlay */}
+    <div className=' absolute md:relative md:w-1/3 px-10 z-0  opacity-20 md:opacity-100 inset-0'>
+    <img
+  src={Heroimg}
+  alt="Hero section illustration"
+  className="w-full object-cover scale-110 md:scale-125 transition-transform duration-500 ease-in-out hover:scale-150"
+/>
+
+    </div>
+  </section>
+  
+  );
 }

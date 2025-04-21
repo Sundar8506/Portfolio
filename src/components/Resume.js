@@ -9,8 +9,8 @@ export default function Resume(){
         </div>
         <div className="md:w-1/2 flex justify-center ">
            <div className="flex flex-col justify-center text-white">
-             <h1 className="text-4xl border-b-4 border-[blueviolet] mb-5 w-[140px] font-bold ">Resume </h1>
-           <p className="pb-6 font-bold">My <span className="text-black">Resume</span> is Here 👉<a className="btn" href={config.link}>Download</a> </p>
+             <h1 className="text-black text-4xl border-b-4 border-[#000000] mb-5 w-[140px] font-bold ">Resume </h1>
+           <p className="pb-6 font-bold text-black">My Resume is Here 👉<a className="btn text-white" href={config.link}>Download</a> </p>
            </div>
         </div>
     </section>
