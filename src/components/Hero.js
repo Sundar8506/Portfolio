@@ -27,7 +27,7 @@ export default function Hero() {
             'Python Programmer.',
             'RPA & Automation.',
             'Graphic Designer.',
-            'Digital Marketer.',
+            'Digital Marketing Specialist.', 
           ]}
           loop={0}
           cursor
