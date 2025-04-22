@@ -13,7 +13,7 @@ export default function Hero() {
 
   return (<section className='relative flex flex-col md:flex-row px-4 py-12 bg-black items-center justify-between overflow-hidden'>
     {/* Text Content */}
-    <div className='w-full md:w-1/2 flex flex-col z-30 text-center md:text-left'>
+    <div className='w-full md:w-1/2 flex flex-col  text-center md:text-left'>
       <h1 className='text-white text-4xl font-hero-font relative'>
         Hi,<br />
         <span className='py-3 inline-block'>I'm K Sundhareshan.</span>
