@@ -1,11 +1,11 @@
 import { useState } from "react";
-import ResumeImg from "../assets/resume.jpg";
+import ResumeImg from "../assets/resume.gif";
 import Confetti from "react-confetti";
 import toast, { Toaster } from "react-hot-toast";
 
 export default function Resume() {
   const config = {
-    link: "https://drive.google.com/file/d/1ZiYwwdZr-L1avaTEN3RSTLEpjMZtOmGc"
+    link: "https://drive.google.com/file/d/1sg9jWp2r3pSmorxLWWkHwR__HDEybVAW"
   };
 
   const [shake, setShake] = useState(false);

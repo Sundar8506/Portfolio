@@ -22,12 +22,13 @@ export default function Hero() {
       <h2 className="text-white text-xl font-hero-font py-3">
         <Typewriter
           words={[
+            'Full Stack Developer.',
             'Frontend Developer.',
             'React.js Enthusiast.',
+            'UI/UX Designer.',
             'Python Programmer.',
             'RPA & Automation.',
             'Graphic Designer.',
-            'UI/UX Designer.',
             'Digital Marketing Specialist.', 
           ]}
           loop={0}

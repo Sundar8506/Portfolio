@@ -1,3 +1,4 @@
+import ContactImg from '../assets/contact.gif';
 export default function Contact() {
   const config = {
     email: 'sundhareshan140@gmail.com',
@@ -5,10 +6,12 @@ export default function Contact() {
   };
 
   return (
-    <section className="flex flex-col bg-primary text-white px-5 py-32" id="contact">
-      <div className="flex flex-col items-center text-center">
-
-        <h1 className="text-4xl md:text-5xl border-b-4 border-[#f9f8f8] mb-5 w-[140px] font-bold">Contact</h1>
+    <section className="flex flex-col md:flex-row bg-primary text-white px-5 py-32" id="contact">
+      <div className="md:w-1/2 flex justify-center items-center">
+        <img className="w-[300px]" src={ContactImg} alt="Resume" />
+      </div>
+      <div className="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left">
+        <h1 className="text-4xl md:text-5xl mb-5 w-[140px] font-bold underline">Contact</h1>
         <p className="pb-6 text-lg md:text-xl">You can contact me:</p>
 
         <p className="py-2 text-lg md:text-xl">
