@@ -27,6 +27,7 @@ export default function Hero() {
             'Python Programmer.',
             'RPA & Automation.',
             'Graphic Designer.',
+            'UI/UX Designer.',
             'Digital Marketing Specialist.', 
           ]}
           loop={0}
