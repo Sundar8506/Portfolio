@@ -1,7 +1,7 @@
 import ContactImg from '../assets/contact.gif';
 export default function Contact() {
   const config = {
-    email: 'sundhareshan140@gmail.com',
+    email: 'sundareshan140@gmail.com',
     number: '+91 8870136394',
   };
 
