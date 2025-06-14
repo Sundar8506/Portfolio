@@ -28,3 +28,20 @@ header ul li{
 html{
     scroll-behavior: smooth;
 }
+
+/* Hide vertical scrollbar globally */
+html {
+  overflow-y: scroll;
+}
+body {
+  overflow-y: hidden;
+}
+
+/* Hide scrollbar for all browsers */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}

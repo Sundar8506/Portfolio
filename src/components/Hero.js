@@ -11,7 +11,7 @@ export default function Hero() {
     },
   };
 
-  return (<section className='relative flex flex-col md:flex-row px-4 py-12 bg-black items-center justify-between overflow-hidden'>
+  return (<section className='relative flex flex-col md:flex-row px-4 py-12 bg-black items-center justify-between overflow-hidden '>
     {/* Text Content */}
     <div className='w-full md:w-1/2 flex flex-col  text-center md:text-left'>
       <h1 className='text-white text-4xl font-hero-font relative'>

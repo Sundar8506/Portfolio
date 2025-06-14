@@ -29,12 +29,12 @@ export default function Resume() {
   };
 
   return (
-    <section className="relative flex flex-col md:flex-row bg-secondary px-5" id="resume">
+    <section className="relative flex flex-col h-screen md:flex-row bg-secondary px-5 py-20 " id="resume">
       <Toaster /> {/* Toast container */}
       {showConfetti && <Confetti numberOfPieces={1000} recycle={false} />}
       
-      <div className="py-5 md:w-1/2 flex justify-center md:justify-end">
-        <img className="w-[300px]" src={ResumeImg} alt="Resume" />
+      <div className="py-5 py-10 md:w-1/2 flex justify-center md:justify-end">
+        <img className="max-w-full mt-10" src={ResumeImg} alt="Resume" />
       </div>
       
       <div className="md:w-1/2 flex justify-center">
