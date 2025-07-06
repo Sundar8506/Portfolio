@@ -9,22 +9,27 @@ export default function About() {
   };
 
   return (
-<section className="flex flex-col h-screen md:flex-row bg-secondary px-5 py-20 " id="about">
+<section className=" flex flex-col min-h-screen md:h-screen md:flex-row bg-secondary px-5 py-20 " id="about">
       <div className="py-10 px-10 md:w-1/2 flex justify-center">
         <img
           src={AboutImg}
-          alt="Sundar"
-          className="max-w-full h-40 w-40 mt-10"
+          alt="About section illustration"
+          className="w-40 h-40 object-cover"
+
         />
       </div>
-      <div className="md:w-1/2 flex justify-center">
-        <div className="flex flex-col justify-center ">
+      <div className="md:w-1/2 flex flex-col justify-center">
+        <div className="flex flex-col justify-center">
           <h1 className="text-4xl border-b-4 border-black mb-5 w-fit font-bold text-black">
             About Me
           </h1>
-          <p className="pb-6 font-medium text-black">{config.line1}</p>
-          <p className="pb-6 font-medium text-black">{config.line2}</p>
-        </div>
+          <p className="pb-6 font-medium text-black text-base md:text-lg lg:text-xl">
+  {config.line1}
+</p>
+<p className="pb-6 font-medium text-black text-base md:text-lg lg:text-xl">
+  {config.line2}
+</p>
+</div>
       </div>
     </section>
   );

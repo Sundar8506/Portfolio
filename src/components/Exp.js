@@ -11,36 +11,42 @@ const Exp = () => {
   const lang = [
     {
       Name: 'Graphic Designer',
-      logo: './assets/download 1.png',
+      logo: require('../assets/magnion.png'),
       skills: '4 weeks',
       para: 'Internship at Magnion Technologies',
       desc: 'Created logos, marketing materials and digital assets using Adobe Photoshop and Canva.',
-      colour: 'hue-rotate-[240deg]'
+     
     },
     {
       Name: 'Web Development',
-      logo: '../assets/download 3.png',
+      logo: require('../assets/codebind logo.jpg'),
       skills: '4 weeks',
       para: 'Internship at Codebind Tech',
       desc: 'Created and maintained websites using HTML, CSS, JavaScript, and PHP.',
-      colour: 'hue-rotate-[180deg]'
+     
     },
     {
       Name: 'UI/UX Designer',
-      logo: '../assets/download 3.png',
+      logo: require('../assets/infotact.png'),
       skills: '4 weeks',
       para: 'Internship at Infotact Solutions',
       desc: 'Designed user interfaces and experiences for web and mobile applications using Figma.',
-      colour: 'hue-rotate-[240deg]'
+     
     },
     {
       Name: 'Full Stack Developmemt',
-      logo: '/asset/aboutdesign (3).png',
+      logo: require('../assets/sedin.png'),
       skills: '4 weeks',
       para: 'Internship at Sedin Technologies',
       desc: 'Created a Interactive Website Using React.js and Node.js.Learned about RESTful APIs and Styling Techniques.',
-      colour: 'hue-rotate-[80deg]'
-    }
+         },
+         {
+      Name: 'Full Stack Developmemt',
+      logo: require('../assets/hazhtech.png'),
+      skills: 'ongoing',
+      para: 'Internship at Hazhtech Solution',
+      desc: 'Created a Interactive Website Using React.js and Node.js.Learned about RESTful APIs and Styling Techniques.',
+         }
   ];
 
   return (
@@ -71,7 +77,7 @@ const Exp = () => {
                   bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white ${item.colour}`}>
 
                   <div className="flex justify-center mb-4">
-                    <img src={item.logo} alt={item.Name} className="h-16 w-16 object-contain" />
+                    <img src={item.logo} alt={item.Name} className="h-16 w-19 object-contain " />
                   </div>
                   <h3 className="text-xl font-semibold mb-1">{item.Name}</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-300 mb-2">{item.para}</p>

@@ -2,6 +2,8 @@ import websiteImg1 from '../assets/download 1.png'
 import websiteImg2 from '../assets/download 4.jpeg'
 import websiteImg3 from '../assets/download 2.jpeg'
 import websiteImg4 from '../assets/download 3.png'
+import fitness from '../assets/fitness.png'
+import ecommerce from '../assets/e-commerce.png'
 import { useState, useEffect, useRef } from 'react';
 
 export default function Projects(){
@@ -32,10 +34,16 @@ export default function Projects(){
                 link:'https://github.com/Sundar8506/cybersecurity.git'
             },
             {
-                image:websiteImg4,
-                Title:'KeyLogger',
-                description:'I designed a KeyLogger for security testing, which records keystrokes for ethical hacking and cybersecurity research. This project helps understand how keylogging works and how to prevent malicious attacks.',
-                link:'https://github.com/Sundar8506/cybersecurity.git'
+                image:fitness,
+                Title:'Fitness Tracker',
+                description:'A user-centric fitness tracking app with real-time workout monitoring, goal setting, progress visualization, and personalized reminders in a clean, intuitive interface.',
+                link:'https://www.figma.com/proto/O3jYCT1DyXwSUiFZrsKVXx/infotact-1st-P-Fitness-App?page-id=167%3A1820&node-id=235-7584&p=f&viewport=-993%2C98%2C0.05&t=2MdlC5aB697eEt8F-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=235%3A7573'
+            },
+             {
+                image:ecommerce,
+                Title:'E-commerce Landing Page',
+                description: 'Designed a modern, responsive e-commerce landing page in Figma with a consistent, user-centric design for both website and mobile, optimized for clarity, usability, and conversions.',
+                link:'https://www.figma.com/proto/0Yd3K5elRnB1tQx06USy80/Infotact-2nd-project?page-id=30%3A2&node-id=59-3222&p=f&viewport=181%2C183%2C0.03&t=lMhtdxYBsfpj5XW4-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=59%3A3222'
             }
         ]
     }
@@ -147,7 +155,7 @@ export default function Projects(){
                                     rel="noopener noreferrer"
                                     href={project.link}
                                 >
-                                    GitHub Link
+                                    View Projects
                                 </a>
                             </div>
                         </div>
