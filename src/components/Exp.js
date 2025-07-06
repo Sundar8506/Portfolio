@@ -26,19 +26,19 @@ const Exp = () => {
       colour: 'hue-rotate-[180deg]'
     },
     {
-      Name: 'Graphic Designer',
+      Name: 'UI/UX Designer',
       logo: '../assets/download 3.png',
       skills: '4 weeks',
-      para: 'Internship at Magnion Technologies',
-      desc: 'Assisted senior designers in branding and digital design using Photoshop and Canva.',
+      para: 'Internship at Infotact Solutions',
+      desc: 'Designed user interfaces and experiences for web and mobile applications using Figma.',
       colour: 'hue-rotate-[240deg]'
     },
     {
-      Name: 'Email Marketing',
+      Name: 'Full Stack Developmemt',
       logo: '/asset/aboutdesign (3).png',
       skills: '4 weeks',
-      para: 'Internship at Vintorix Pvt Ltd',
-      desc: 'Executed email campaigns to promote products and engage customers.',
+      para: 'Internship at Sedin Technologies',
+      desc: 'Created a Interactive Website Using React.js and Node.js.Learned about RESTful APIs and Styling Techniques.',
       colour: 'hue-rotate-[80deg]'
     }
   ];
