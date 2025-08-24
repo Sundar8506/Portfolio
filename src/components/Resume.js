@@ -5,7 +5,7 @@ import toast, { Toaster } from "react-hot-toast";
 
 export default function Resume() {
   const config = {
-    link: "https://drive.google.com/file/d/1sg9jWp2r3pSmorxLWWkHwR__HDEybVAW"
+    link: "https://drive.google.com/file/d/1HRcgBQ4VhXYaCLlO9iT5rVTnf4Ewz_sN/view"
   };
 
   const [shake, setShake] = useState(false);
