@@ -40,7 +40,7 @@ export default function Hero() {
         />
       </h2>
   
-      <div className='flex justify-center md:justify-start py-10 px-2'>
+      <div className='flex justify-center z-5 md:justify-start  py-10 px-2'>
         <a href={config.social.linkedin} target="_blank" rel="noopener noreferrer" className='text-white pr-3  transition-transform duration-500 ease-in-out
  hover:scale-150
 '>

@@ -52,7 +52,7 @@ const Exp = () => {
   return (
     <section id="experience" className="py-16 px-6 md:px-16 lg:px-32 bg-black dark:bg-[#00052a] transition-colors duration-500">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-12 text-gray-900 dark:text-white hover:text-[#EFB036] transition">Experience</h2>
+        <h2 className="text-4xl font-bold mb-12 text-white dark:text-white hover:text-[#EFB036] transition">Experience</h2>
 
         <Swiper
           freeMode={true}
