@@ -13,7 +13,7 @@ const Exp = () => {
       Name: 'Front-End Developer',
       logo: require('../assets/HindujaTechLogo.png'),
       skills: 'ongoing',
-      para: 'Work Experience at Hazhtech Solution',
+      para: 'Work Experience at  Hinduja Tech Engineering Mobility ',
       desc: 'Working as a Front-End Developer, building responsive UI components using React.js and SCSS for the ALM Project for Ashok Leyland.',
     },
     {
