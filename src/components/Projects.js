@@ -13,7 +13,7 @@ export default function Projects(){
                 image:websiteImg1,
                 Title:'E-commerce Site',
                 description:'I built a E-commerce website where users can browse products, add them to their cart, and make purchases. I used React.js, HTML, CSS, and MySQL to develop a smooth and interactive user experience.',
-                link:'https://github.com/Sundar8506/ecommerce.git'
+                link:'https://sedinfakestore.netlify.app/'
             },
             {
                 image:websiteImg2,
@@ -25,7 +25,7 @@ export default function Projects(){
                 image:websiteImg3,
                 Title:'Emoji Finder',
                 description:'I developed a simple yet fun Emoji Finder that helps users search for emojis based on keywords. This project enhances user experience and is useful for chat applications.',
-                link:'https://github.com/Sundar8506/emojisearch.git'
+                link:'https://emojisearch-eight.vercel.app/'
             },
             {
                 image:websiteImg4,
@@ -37,13 +37,13 @@ export default function Projects(){
                 image:fitness,
                 Title:'Fitness Tracker',
                 description:'A user-centric fitness tracking app with real-time workout monitoring, goal setting, progress visualization, and personalized reminders in a clean, intuitive interface.',
-                link:'https://www.figma.com/proto/O3jYCT1DyXwSUiFZrsKVXx/infotact-1st-P-Fitness-App?page-id=167%3A1820&node-id=235-7584&p=f&viewport=-993%2C98%2C0.05&t=2MdlC5aB697eEt8F-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=235%3A7573'
+                link:'https://www.figma.com/design/QJxrUQiIhCLSmH67r7OYXo/pro-fitness?node-id=0-1&p=f&t=8cgM9r5wuzEr2BsE-0'
             },
              {
                 image:ecommerce,
                 Title:'E-commerce Landing Page',
                 description: 'Designed a modern, responsive e-commerce landing page in Figma with a consistent, user-centric design for both website and mobile, optimized for clarity, usability, and conversions.',
-                link:'https://www.figma.com/proto/0Yd3K5elRnB1tQx06USy80/Infotact-2nd-project?page-id=30%3A2&node-id=59-3222&p=f&viewport=181%2C183%2C0.03&t=lMhtdxYBsfpj5XW4-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=59%3A3222'
+                link:'https://www.figma.com/design/ynz5KE1IOtcedzQtz9udYH/e-commerce?node-id=72-4006&p=f&t=WbdQlA98m9wY2N9f-0'
             }
         ]
     }

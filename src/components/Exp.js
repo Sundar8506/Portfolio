@@ -9,21 +9,19 @@ const Exp = () => {
   const [active, setActive] = useState(null);
 
   const lang = [
-    {
-      Name: 'Graphic Designer',
-      logo: require('../assets/magnion.png'),
-      skills: '4 weeks',
-      para: 'Internship at Magnion Technologies',
-      desc: 'Created logos, marketing materials and digital assets using Adobe Photoshop and Canva.',
-     
+     {
+      Name: 'Front-End Developer',
+      logo: require('../assets/HindujaTechLogo.png'),
+      skills: 'ongoing',
+      para: 'Work Experience at Hazhtech Solution',
+      desc: 'Working as a Front-End Developer, building responsive UI components using React.js and SCSS for the ALM Project for Ashok Leyland.',
     },
     {
-      Name: 'Web Development',
-      logo: require('../assets/codebind logo.jpg'),
-      skills: '4 weeks',
-      para: 'Internship at Codebind Tech',
-      desc: 'Created and maintained websites using HTML, CSS, JavaScript, and PHP.',
-     
+      Name: 'Full Stack Developmemt',
+      logo: require('../assets/hazhtech.png'),
+      skills: '3 months',
+      para: 'Internship at Hazhtech Solution',
+      desc: 'Created a Interactive Website Using React.js and Node.js.Learned about RESTful APIs and Styling Techniques.',
     },
     {
       Name: 'UI/UX Designer',
@@ -31,7 +29,7 @@ const Exp = () => {
       skills: '4 weeks',
       para: 'Internship at Infotact Solutions',
       desc: 'Designed user interfaces and experiences for web and mobile applications using Figma.',
-     
+
     },
     {
       Name: 'Full Stack Developmemt',
@@ -39,14 +37,24 @@ const Exp = () => {
       skills: '4 weeks',
       para: 'Internship at Sedin Technologies',
       desc: 'Created a Interactive Website Using React.js and Node.js.Learned about RESTful APIs and Styling Techniques.',
-         },
-         {
-      Name: 'Full Stack Developmemt',
-      logo: require('../assets/hazhtech.png'),
-      skills: 'ongoing',
-      para: 'Internship at Hazhtech Solution',
-      desc: 'Created a Interactive Website Using React.js and Node.js.Learned about RESTful APIs and Styling Techniques.',
-         }
+    },
+    {
+      Name: 'Graphic Designer',
+      logo: require('../assets/magnion.png'),
+      skills: '4 weeks',
+      para: 'Internship at Magnion Technologies',
+      desc: 'Created logos, marketing materials and digital assets using Adobe Photoshop and Canva.',
+
+    },
+    {
+      Name: 'Web Development',
+      logo: require('../assets/codebind logo.jpg'),
+      skills: '4 weeks',
+      para: 'Internship at Codebind Tech',
+      desc: 'Created and maintained websites using HTML, CSS, JavaScript, and PHP.',
+
+    }
+   
   ];
 
   return (
@@ -72,16 +80,16 @@ const Exp = () => {
           {lang.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="h-full flex justify-center">
-                <div className={`relative p-6 rounded-2xl w-full max-w-sm transition duration-300 ease-in-out
+                <div className={`relative p-6  m-2 bg-white rounded-2xl w-full max-w-sm transition duration-300 ease-in-out
                   ${active === i ? 'scale-105 shadow-2xl' : 'scale-95 shadow-md'} 
-                  bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white ${item.colour}`}>
+                  bg-white dark:bg-white-800 text-gray-900 dark:text-white`}>
 
-                  <div className="flex justify-center mb-4">
+                  <div className="flex justify-center mb-4 bg-white ">
                     <img src={item.logo} alt={item.Name} className="h-16 w-19 object-contain " />
                   </div>
-                  <h3 className="text-xl font-semibold mb-1">{item.Name}</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-300 mb-2">{item.para}</p>
-                  <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-200">{item.desc}</p>
+                  <h3 className="text-xl font-semibold mb-1 text-black">{item.Name}</h3>
+                  <p className="text-sm text-black dark:text-black-300 mb-2">{item.para}</p>
+                  <p className="text-sm leading-relaxed text-black dark:text-black-200">{item.desc}</p>
 
                   <div className="absolute top-4 right-4 text-xs font-medium px-3 py-1 bg-[#EFB036] rounded-full shadow-md">
                     {item.skills}
