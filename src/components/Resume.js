@@ -2,11 +2,10 @@ import { useState } from "react";
 import ResumeImg from "../assets/resume.gif";
 import Confetti from "react-confetti";
 import toast, { Toaster } from "react-hot-toast";
+import resume from "../assets/Sundhareshan_Resume.pdf"
 
 export default function Resume() {
-  const config = {
-    link: "https://drive.google.com/file/d/1HRcgBQ4VhXYaCLlO9iT5rVTnf4Ewz_sN/view"
-  };
+ 
 
   const [shake, setShake] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
@@ -24,7 +23,7 @@ export default function Resume() {
     setTimeout(() => {
       setShake(false);
       setShowConfetti(false);
-      window.open(config.link, "_blank");
+      window.open(resume, "_blank");
     }, 1000);
   };
 
@@ -43,7 +42,7 @@ export default function Resume() {
           <p className="pb-6 font-bold">
             My Resume is Here 👉{" "}
             <a
-              href={config.link}
+              href={resume}
               onClick={handleClick}
               className={`inline-block px-4 py-2 rounded transition-transform transform hover:scale-110 hover:bg-black hover:text-white ${
                 shake ? "animate-shake" : ""
