@@ -1,16 +1,15 @@
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
-import { useState } from 'react';
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { useState } from "react";
 
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="sticky top-0 z-30 flex justify-between items-center px-5 py-2 bg-white shadow-md">
+    <header className="fixed top-0 z-30 flex justify-between items-center w-full px-5 py-2 bg-white shadow-md">
       {/* Portfolio Title */}
       <button className="text-xl font-extrabold text-black">
-  Sundhareshan's Portfolio...
-</button>
-
+        Sundhareshan's Portfolio...
+      </button>
 
       {/* Desktop Menu */}
       <nav className="hidden md:block">
@@ -20,6 +19,9 @@ export default function Header() {
           </li>
           <li>
             <a href="/#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="/#experience">EXPERIENCE</a>
           </li>
           <li>
             <a href="/#project">PROJECTS</a>
@@ -36,7 +38,7 @@ export default function Header() {
       {/* Mobile Menu */}
       <div
         className={`md:hidden fixed top-0 right-0 h-full bg-black bg-opacity-90 p-5 transition-transform duration-500 ease-in-out z-50 ${
-          toggleMenu ? 'translate-x-0' : 'translate-x-full'
+          toggleMenu ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <ul
@@ -48,6 +50,9 @@ export default function Header() {
           </li>
           <li>
             <a href="/#about">ABOUT</a>
+          </li>{" "}
+          <li>
+            <a href="/#experience">EXPERIENCE</a>
           </li>
           <li>
             <a href="/#project">PROJECTS</a>
@@ -64,7 +69,7 @@ export default function Header() {
       {/* Hamburger / Close Button */}
       <button
         onClick={() => setToggleMenu(!toggleMenu)}
-        aria-label={toggleMenu ? 'Close menu' : 'Open menu'} // Added accessibility label
+        aria-label={toggleMenu ? "Close menu" : "Open menu"} // Added accessibility label
         className="block md:hidden transition-transform duration-300 hover:scale-110"
       >
         {toggleMenu ? (

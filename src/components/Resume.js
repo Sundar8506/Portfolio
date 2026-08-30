@@ -2,11 +2,9 @@ import { useState } from "react";
 import ResumeImg from "../assets/resume.gif";
 import Confetti from "react-confetti";
 import toast, { Toaster } from "react-hot-toast";
-import resume from "../assets/Sundhareshan_Resume.pdf"
+import resume from "../assets/Sundhareshan Resume.pdf";
 
 export default function Resume() {
- 
-
   const [shake, setShake] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
 
@@ -28,17 +26,20 @@ export default function Resume() {
   };
 
   return (
-    <section className="relative flex flex-col h-screen md:flex-row bg-secondary px-5 py-20 " id="resume">
+    <section
+      className="relative flex flex-col min-h-screen md:flex-row bg-secondary px-5 py-0"
+      id="resume"
+    >
       <Toaster /> {/* Toast container */}
       {showConfetti && <Confetti numberOfPieces={1000} recycle={false} />}
-      
       <div className="py-5 py-10 md:w-1/2 flex justify-center md:justify-end">
         <img className="max-w-full mt-10" src={ResumeImg} alt="Resume" />
       </div>
-      
       <div className="md:w-1/2 flex justify-center">
         <div className="flex flex-col justify-center text-black">
-          <h1 className="text-4xl border-b-4 border-black mb-5 w-[140px] font-bold">Resume</h1>
+          <h1 className="text-4xl border-b-4 border-black mb-5 w-[140px] font-bold">
+            Resume
+          </h1>
           <p className="pb-6 font-bold">
             My Resume is Here 👉{" "}
             <a
