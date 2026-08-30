@@ -9,13 +9,15 @@ export default function About() {
   };
 
   return (
-<section className=" flex flex-col min-h-screen md:h-screen md:flex-row bg-secondary px-5 py-20 " id="about">
-      <div className="py-10 px-10 md:w-1/2 flex justify-center">
+    <section
+      className="flex flex-col min-h-screen md:flex-row bg-secondary px-5 py-0 items-center"
+      id="about"
+    >
+      <div className="md:w-1/2 flex justify-center items-center">
         <img
           src={AboutImg}
           alt="About section illustration"
-          className="w-40 h-40 object-cover"
-
+          className="w-40 h-40 object-cover mx-auto"
         />
       </div>
       <div className="md:w-1/2 flex flex-col justify-center">
@@ -24,12 +26,12 @@ export default function About() {
             About Me
           </h1>
           <p className="pb-6 font-medium text-black text-base md:text-lg lg:text-xl">
-  {config.line1}
-</p>
-<p className="pb-6 font-medium text-black text-base md:text-lg lg:text-xl">
-  {config.line2}
-</p>
-</div>
+            {config.line1}
+          </p>
+          <p className="pb-6 font-medium text-black text-base md:text-lg lg:text-xl">
+            {config.line2}
+          </p>
+        </div>
       </div>
     </section>
   );
