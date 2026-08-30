@@ -22,7 +22,7 @@ export default function Hero() {
         <h1 className="text-white text-4xl font-hero-font relative">
           Hi,
           <br />
-          <span className="py-3 inline-block">I'm K Sundhareshan.</span>
+          <span className="py-3 inline-block">I'm K.Sundhareshan.</span>
         </h1>
 
         <h2 className="text-white text-xl font-hero-font py-3">
